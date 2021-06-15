@@ -1,0 +1,21 @@
+const colors = {
+  dodgerBlue: 'rgb(51,109,243)',
+  white: 'white',
+  melrose: 'rgb(171,195,252)',
+  mariner: 'rgb(45,96,214)',
+  hotPink: 'rgb(255,106,162)',
+  melrose: 'rgb(171,195,252)',
+  linkWater: 'rgb(237,241,250)',
+  gullGray: 'rgb(149,159,186)',
+  mischka: 'rgb(211,215,224)',
+  whiteLilac: 'rgb(245,247,252)',
+  alto: 'rgb(216,216,216)',
+  charade: 'rgb(36,40,51)',
+  shuttleGray: 'rgb(93,99,115)',
+  waterloo: 'rgb(126,132,148)',
+  ceruleanBlue: 'rgb(36,76,170)',
+  malibu: 'rgb(137,170,250)',
+  brinkPink: 'rgb(255,84,149)',
+  solitude: 'rgb(221,230,255)',
+};
+export default colors;
