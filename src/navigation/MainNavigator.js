@@ -84,7 +84,8 @@ const TabNav = () => {
         }}
       />
       <Tab.Screen
-        name={roots.profileScreen}
+        name={roots.profileScreen} 
+        
         component={Profile}
         options={{
           tabBarIcon: ({focused}) => (
