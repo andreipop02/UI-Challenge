@@ -34,6 +34,7 @@ const metrics = {
   size0_9: 0.9,
   size1_1: 1.1,
   size1_25: 1.25,
+  size1_5: 1.5,
   size23_5: 23.5,
   size52_5: 52.5,
   size3_5: 3.5,

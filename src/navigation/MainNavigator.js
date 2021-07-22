@@ -24,7 +24,9 @@ const TabNav = () => {
     <Tab.Navigator
       screenOptions={defaultNavigationOptions}
       initialRouteName={roots.homeScreen}
-      tabBarOptions={{showLabel: false}}>
+      tabBarOptions={{showLabel: false,
+      activeTintColor:colors.dodgerBlue,
+      inactiveTintColor: colors.gullGray}}>
       <Tab.Screen
         name={roots.homeScreen}
         component={Home}
@@ -34,8 +36,8 @@ const TabNav = () => {
               name="user"
               type="font-awesome"
               size={metrics.size25}
-              color={colors.alto}
-            />
+              color={focused ? colors.dodgerBlue : colors.gullGray}
+            />            
           ),
         }}
       />
@@ -48,7 +50,7 @@ const TabNav = () => {
               name="check-square"
               type="font-awesome"
               size={metrics.size25}
-              color={colors.alto}
+              color={focused ? colors.dodgerBlue : colors.gullGray}
             />
           ),
         }}
@@ -62,7 +64,7 @@ const TabNav = () => {
               name="plus-square"
               type="font-awesome"
               size={metrics.size35}
-              color={colors.alto}
+              color={focused ? colors.dodgerBlue : colors.gullGray}
             />
           ),
         }}
@@ -76,7 +78,7 @@ const TabNav = () => {
               name="bell"
               type="font-awesome"
               size={metrics.size25}
-              color={colors.alto}
+              color={focused ? colors.dodgerBlue : colors.gullGray}
             />
           ),
         }}
@@ -90,7 +92,7 @@ const TabNav = () => {
               name="user"
               type="font-awesome"
               size={metrics.size25}
-              color={colors.alto}
+              color={focused ? colors.dodgerBlue : colors.gullGray}
             />
           ),
         }}

@@ -5,6 +5,7 @@ import {
   Image,
   TouchableOpacity,
   ImageBackground,
+  ScrollView
 } from 'react-native';
 import HomeScreenStyles from '../styles/HomeScreenStyles';
 import {colors, strings, metrics} from '../constants/index';

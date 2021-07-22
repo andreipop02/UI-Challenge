@@ -25,6 +25,8 @@ const strings = {
   more7: '+7',
   more2: '+2',
   more3: '+3',
+  yourCloudStorage: 'Your cloud storage',
+  safeAndSound: 'safe and sound',
 };
 
 export default strings;

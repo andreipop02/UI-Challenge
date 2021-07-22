@@ -1,8 +1,8 @@
 import React from 'react';
-import {View, TouchableOpacity, ImageBackground, Image} from 'react-native';
+import {View, TouchableOpacity, ImageBackground, Image, Text} from 'react-native';
 import OnboardingScreenStyles from '../styles/OnboardingScreenStyles';
 import {Icon} from 'react-native-elements';
-import {metrics, colors} from '../constants';
+import {metrics, colors, strings} from '../constants';
 import {useNavigation} from '@react-navigation/native';
 import roots from '../navigation/roots';
 
@@ -17,10 +17,12 @@ const Onboarding = () => {
       source={require('../../assets/onboardingBackground.png')}>
       <View style={OnboardingScreenStyles.mainContainer}>
         <View style={OnboardingScreenStyles.textContainer}>
-          <Image
+          <Text style={OnboardingScreenStyles.cloudText}>{strings.yourCloudStorage}</Text>
+          <Text style={OnboardingScreenStyles.cloudText}>{strings.safeAndSound}</Text>
+          {/* <Image
             style={OnboardingScreenStyles.text}
             source={require('../../assets/yourCloudStorage.png')}
-          />
+          /> */}
         </View>
         <View style={OnboardingScreenStyles.rectangleContainer}>
           <TouchableOpacity onPress={() => navigateToHomeScreen()}>

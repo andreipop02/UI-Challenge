@@ -24,7 +24,7 @@ const HomeScreenStyles = StyleSheet.create({
   },
   heroContainer: {
     flex: metrics.size1,
-    marginTop: metrics.size45,
+    marginTop: metrics.size23
   },
   progressBar: {
     height: metrics.size6,
@@ -60,6 +60,7 @@ const HomeScreenStyles = StyleSheet.create({
     borderTopLeftRadius: metrics.size40,
     borderTopRightRadius: metrics.size40,
     backgroundColor: colors.white,
+    marginTop: metrics.size40
   },
   searchBar: {
     backgroundColor: colors.linkWater,
@@ -68,7 +69,7 @@ const HomeScreenStyles = StyleSheet.create({
     borderRadius: metrics.size23_5,
     flexDirection: 'row',
     alignItems: 'center',
-    flex: metrics.size1,
+    flex: metrics.size1_25,
   },
   input: {
     marginLeft: metrics.size14,
@@ -127,12 +128,12 @@ const HomeScreenStyles = StyleSheet.create({
     color: colors.waterloo,
   },
   folders: {
-    flex: metrics.size8,
+    flex: metrics.size1,
     flexDirection: 'row',
     padding: metrics.size25,
   },
   files: {
-    flex: metrics.size8,
+    flex: metrics.size1,
     padding: metrics.size25,
   },
   foldersColumnOne: {
@@ -146,6 +147,7 @@ const HomeScreenStyles = StyleSheet.create({
     backgroundColor: colors.whiteLilac,
     flex: metrics.size1,
     borderRadius: metrics.size25,
+    height:150,
     flexDirection: 'row',
   },
   foldersSquaresDown: {
@@ -153,6 +155,7 @@ const HomeScreenStyles = StyleSheet.create({
     flex: metrics.size1,
     borderRadius: metrics.size25,
     marginTop: metrics.size25,
+    height:150,
     flexDirection: 'row',
   },
   squaresMainText: {
@@ -204,6 +207,9 @@ const HomeScreenStyles = StyleSheet.create({
     fontSize: metrics.size14,
     color: colors.white,
   },
+  contentView: {
+    flex: metrics.size7
+  }
 });
 
 export default HomeScreenStyles;

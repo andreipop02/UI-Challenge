@@ -5,6 +5,7 @@ import {colors, strings, metrics} from '../constants/index';
 import {Icon} from 'react-native-elements';
 import Folders from '../components/Folders';
 import Files from '../components/Files';
+import { ScrollView } from 'react-native';
 const Home = () => {
   const [focus, setFocus] = useState(true);
   console.log(focus);
@@ -93,7 +94,11 @@ const Home = () => {
             </TouchableOpacity>
           </View>
         </View>
+        <View style={HomeScreenStyles.contentView}>
+        <ScrollView>
         {focus ? <Folders /> : <Files />}
+        </ScrollView>
+        </View>
       </View>
     </View>
   );
